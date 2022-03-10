@@ -8,6 +8,6 @@ public class HomepageController {
 
     @GetMapping
     public String homepage(){
-        return "mm";
+        return "redirect:/admin/";
     }
 }
